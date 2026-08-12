@@ -8,6 +8,8 @@ import streamlit as st
 import nltk
 nltk.download("punkt_tab")
 
+st.set_page_config(page_title="Koreksi Ejaan Peter Norvig")
+
 #DEFINISI FUNGSI
 global kamus
 global totalSeluruhKata
