@@ -5,6 +5,8 @@ import re
 import string
 from nltk.tokenize import word_tokenize
 import streamlit as st
+import nltk
+nltk.download("punkt_tab")
 
 #DEFINISI FUNGSI
 global kamus
